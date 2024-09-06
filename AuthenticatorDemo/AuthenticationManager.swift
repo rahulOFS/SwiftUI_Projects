@@ -32,7 +32,7 @@ class AuthenticationManager : ObservableObject {
                     DispatchQueue.main.async {
                         self.isAuthneticated = true
                         print("isAuthenticated",self.isAuthneticated)
-                        print("abcd")
+                
                     }
                 }
             } catch {
